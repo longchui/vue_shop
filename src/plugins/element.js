@@ -24,6 +24,9 @@ import { Message,
          Pagination,
          Dialog,
          MessageBox,
+         Tag,
+         Tree,
+         Cascader
          
         } from 'element-ui'
 
@@ -52,6 +55,9 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Cascader)
 
 
 

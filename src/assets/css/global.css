@@ -3,6 +3,9 @@ html,body,#app{
   height: 100%;
   padding: 0;
   margin: 0;
+  /* 最小页面宽度。当页面宽度不足时，强制页面宽度这样打 */
+  min-width:1366px;
+  
 }
 
 
@@ -23,4 +26,9 @@ html,body,#app{
 
 .el-pagination{
   margin-top: 15px;
+}
+
+.el-cascader-menu{
+  height:500px;
+  width:100%;
 }
