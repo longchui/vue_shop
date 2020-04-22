@@ -26,7 +26,17 @@ import { Message,
          MessageBox,
          Tag,
          Tree,
-         Cascader
+         Cascader,
+         Alert,
+         Tabs,
+         TabPane,
+         Steps,
+         Step,
+         CheckboxGroup,
+         Checkbox,
+         Upload,
+        
+         
          
         } from 'element-ui'
 
@@ -58,6 +68,16 @@ Vue.use(Dialog)
 Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
+
+
 
 
 
